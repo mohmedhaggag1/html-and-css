@@ -1,0 +1,955 @@
+body{
+    /* height: 2000px; */
+    padding: 0px;
+    margin: 0vw;
+}
+.Head {
+    /* background-image:url("../img/hero-bg.jpg"); */
+    
+    
+    width: 100%;
+    /* background-image: no-repeat; */
+    /* background-size: auto; */
+    /* background-origin: content-box; */
+    background-size: cover;
+    position: relative;
+    height: 80vh;
+    /*   عشان اغمق الخلفيه  */
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("../img/hero-bg.jpg");
+    
+    -webkit-background-size: cover;
+    -moz-background-size:  cover;
+    -o-background-size: cover;
+    background-size: cover;
+  
+    background-attachment: fixed;
+  
+  }
+  .l1 {
+  
+    display: inline;
+    margin-left:60px;
+    font-size: 18px;
+    padding-left: 20px;
+  
+  }
+  .l1-in-div{
+      list-style: none;
+      font-size: 18px;
+      padding-left: 20px;
+      margin-top: 13px;
+      
+  }
+  .l1-div{
+      /* margin-left: 800px; */
+      margin-top: 40pxs;
+      background-color: #fff;
+      height: 54px;
+      margin-top: 16px;
+      padding-left: 15px;
+      padding-right: 10px;
+  }
+  .LIST-1{
+      /* background-color: white; */
+      /* border: 2px dashed blue; */
+      padding-top: 10px;
+      display: flex;
+      justify-content: center;
+  }
+  .ul-of-header{
+      border: 2px dashed white;
+      background-color:white;
+      /* padding: 3px; */
+      text-align: center;
+      padding: 10px;
+      height: 30px;
+    
+  }
+  li.GET-START{
+      background-color:white;   
+  }
+  
+  .head-title {
+      background-color: #009970;
+      /* padding: 20px; */
+      height: 52px;
+      width: 110px;
+  
+  }
+  .l1-head{
+      text-align: center;
+      list-style: none;
+      padding-top: 10px;
+  }
+  .h-title{
+      text-align: center;
+      display: flex;
+      justify-content: center;
+  }
+   .BE {
+    background-color:#009970;
+    font-size: 26px;
+      padding: 0;
+      line-height: 1;
+      font-weight: 700;
+      font-family: "Poppins", sans-serif;
+      text-decoration: none;
+      color: #fff;
+      padding-right: 10px;
+  }
+  user agent stylesheet
+  a:-webkit-any-link {
+  
+  } 
+  .head-text {
+    text-align: center;
+    margin: 80px;
+    color: white;
+    font-size: 25px;
+    transition: 2s; /* بتحكم في الوقت اللي الحاجه بتظهر فيه لما اعمل ريفريش */
+  }
+  
+  .GET-START {
+      font-family: "Poppins", sans-serif;
+      text-transform: uppercase;
+      font-weight: 500;
+      font-size: 14px;
+      letter-spacing: 1px;
+      display: inline-block;
+      padding: 8px 28px;
+      border-radius: 50px;
+      margin: 10px;
+      border: 2px solid rgb(39, 11, 11);
+      color:white;
+      border: 2px solid white;
+      text-decoration: none;  /*عشان اشيل الخط اللي تحت الكلمه */
+  }
+  
+  
+  .spa1{
+  
+      background-color: #009970;
+      border-radius: 20px;
+      font-size: 22px;
+      padding: 11px;
+      color: white;
+      text-decoration: none;  
+           
+      
+  }
+  .spa1:hover{
+      opacity: 0.7;  /* */
+  }
+  
+  
+  .item{
+      text-decoration: none;
+  }
+  .item:hover{  /*  بقف بالسهم علي الكلمه لونها يتغير*/
+      color: #009970;
+  }
+  
+  
+
+.clas-image{
+    background-color: #f6f6f7;
+    margin-top: 0;
+    padding: 8px;
+
+}
+.im{
+    display: inline;
+    width:75px;
+    height: 30px;
+    filter: grayscale(100);
+    transition: all 0.4s ease-in-out;
+    /* padding: 15px 0; */
+    transition: 2s;
+    margin: 0 35px;
+}
+.im:hover{
+    filter: none;
+}
+
+
+/* عشان اعقسم الشاشه نصين */
+.Big-dev{
+    /* border: 3px solid red; */
+    /* padding: 20px; */
+   
+}
+
+.left-text{ margin-left: 50px;}
+ .left-text , .Right-text{ 
+    width: 40%;
+   float: left;   /* بتقسم الكلام علي الصفحه */
+   padding: 20px;
+ 
+   
+}
+.first-text{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 60px;
+    margin-bottom: 20px;
+    text-transform: uppercase; /* كل الكلام كابتل */
+}
+
+.second-text{
+font-weight: 500;
+    line-height: 32px;
+    font-size: 24px;
+}
+
+.third-text , .list{
+    margin-top: 50px;
+    font-size: 17px;
+    display: block;
+    
+}
+
+.four-t{
+    left: 0;
+    top: 7px;
+    position: absolute;
+    font-size: 20px;
+    padding: 10px 0 0 28px;
+    position: relative;
+    margin-right: 50px;
+}
+    
+/* .cont-num{
+border: 2px solid red;
+background-color: green;
+
+}
+ */
+ .counter-H{
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+ }
+
+ .tes-1{
+     width: 400px;
+     height: 400px;
+     background-color: red;
+     margin-top: 400px;
+     display: inline-block;
+ }
+ .tes-2{
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+}
+
+/*عشان اقسم الشاشه بطريقه ال  flex */
+.flex-count{
+  width: 1300px;
+  height: 80px;
+  font-size: 25px;
+  padding: 18px;
+  display: flex;
+  flex-direction: row;
+background-color:  #009970 ;
+/* justify-content: center; */
+
+
+}
+
+.flex-1{
+    width: 25%;
+    display: block;
+    font-weight: 700;
+    text-align: center;
+
+    padding-left: 150;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    /* justify-content: space-between;  /*عشان اعمل مسافات بين ال;classes */
+    
+}
+
+/* بقسم الشاشه */
+
+.flex-text{
+    
+    margin: 50px;
+    padding-right: 20px;
+    display: block;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    /* border: 2px solid red; */
+    justify-content: space-between; /* space between div-object*/
+    height: 500px;
+  
+
+}
+
+.flex-text-Head1{
+
+    background-color: #009970;
+    margin-left: 80px;
+    height: 80;
+    width: 50%;
+    color:#fff;
+}
+.a1 ,.a2{
+
+    padding-left: 12px;
+    margin-bottom: 40px;
+}
+
+.a1{
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 34px;
+
+}
+
+.a2{
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;;
+}
+.Learn-more{
+
+    text-decoration: none;  /*عشان اشيل الخط اللي تحت الكلمه */
+    transition: 1s;
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 2px solid white ;
+    margin-left:100px ;
+    margin-top: 100;
+}
+
+.Learn-more:hover{
+    background-color: ivory;
+    color: green;
+}
+
+.flex-text-Head{
+background-color:whitesmoke;
+border-radius: 5px;
+height: 270px; 
+margin-left: 10px;
+margin-top: 160px;
+background-color:white;
+box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+}
+
+.c-action{
+
+   height: 300px;
+   
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("../img/cta-bg.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size:  cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+    /* background-image:url("../img/cta-bg.jpg"); */
+    background-attachment: fixed;
+    color: white;
+
+    text-align: center;
+}
+
+.c2-action{
+    padding-top: 100px;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.c3-action{
+    font-family: "Open Sans", sans-serif;
+    
+}
+
+.call-to-action{
+
+    text-decoration: none;  /*عشان اشيل الخط اللي تحت الكلمه */
+    transition: 1s;
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 2px solid white ;
+    color: #fff;
+    margin-top: 100px;
+    width: 50px;
+}
+.call-to-action:hover{
+
+    background-color: #009970;
+    color: #f6f6f7;
+}
+
+
+.father-service{
+
+    margin-top: 100px;
+    margin-left: 60px;;
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+}
+
+/* to use befor */
+/* بتتحكم في الاتجاهات بتاع الخط اولشكل بمزاجك */
+.service-header{
+
+        position: relative;
+        padding: 5px;
+
+}
+.service-header::after{
+    
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 10%;
+    /* bottom: 5px;  */
+    top: 45px;
+    left: 12px; 
+    right: -.5px; 
+    background-color: #009970;
+}
+
+.part2-of-service{
+
+justify-content: space-between;
+}
+/**/
+.row-1-on-part2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    height: 200px;
+    width: calc(98%2);
+    justify-content: space-between;
+
+}
+
+.Lorem-Ipsum{
+background-color: #f6f6f7;;
+margin-right: 4px;
+
+
+}
+
+
+.Sed-ut-perspiciatis{
+background-color: #f6f6f7;
+margin-left: 5px;
+
+}
+
+/**/
+.row-2-on-part2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    height: 200px;
+    width: calc(98%2);
+    justify-content: space-between
+ 
+}
+
+.Magni-Dolores ,.Nemo-Enim{
+    margin-top: 50px;
+ 
+}
+.Magni-Dolores{
+background-color:#f6f6f7;
+margin-right: 4px;
+height: 200px;
+
+}
+
+
+.Nemo-Enim{
+background-color:#f6f6f7;;
+margin-left: 8px;
+background-color: #fff;
+height: 200px;
+
+}
+
+.Magni-Dolores , .Nemo-Enim , .Sed-ut-perspiciatis , .Lorem-Ipsum  {
+    background-color: #fff;
+
+
+} 
+
+.serv ,.srv-p{
+ padding: 20px;
+
+}
+/* ..srv-p{ text-align: center;} */
+.serv:hover{
+    color: green;
+}
+
+/* .lo{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    justify-content: center;
+
+   justify-content: space-between; 
+   align-items: flex-end ;
+}
+.one ,.two ,.three , .four{
+    width:calc(90% /4);
+    background-color: red;
+     
+} */
+
+/*        الجزء بتاع ال 9 صور */
+.part-of-image{
+/*
+    margin-top: 40px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    align-items: center;
+    padding: 20px; */            /* another solution*/
+}
+
+.PORTFOLIO{
+    background-color: #fff;
+}
+
+                                   /*  عشان اعمل الخط تحت الكلمه */
+
+.head-PORTFOLIO{
+position: relative;
+padding-right: 20px;
+padding-top: 20px;
+}
+
+.head-PORTFOLIO::after
+{
+ 
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 10%;
+    /* bottom: 30px;  */
+    top: 60px;
+    left: 12px; 
+    right: -3px; 
+    background-color: #009970;   
+}
+.text-in-image-div {
+    margin-left: 150px;
+}
+
+
+.p-in-image-div{
+
+    font-size: 20px;
+}
+
+.part-of-image{
+
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+    margin-top: 130px;
+    
+}
+
+.image-in-row{
+    width: 320px;
+    height: 320px;
+
+}
+.div-in-row-image{
+
+    margin-top: 24px;
+
+}
+
+.row-in-image{
+    margin-left: 24px;
+}
+
+
+.TESTIMONIALS{
+    margin-top: 50px;
+}
+/*ناقص  جزء هنا */
+
+.TEAM{
+    margin-top: 100px;
+}
+
+.team-p{padding-left: 30px;}
+
+.team-head{
+    padding-left: 30px;
+    position: relative;
+}
+
+.team-head::after{
+
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 10%;
+    /* bottom: 30px;  */
+    top: 40px;
+    left: 30px; 
+    /* right: -3px;  */
+    background-color: #009970;
+}
+
+.team-image{
+
+    width: 200px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.first-row-team{
+
+    display: flex;
+    display: inline-block;
+    justify-content: space-between;
+   margin-left: 450px;
+  /* margin-bottom: 20%; */
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+    color: #444444;
+    transition-delay: .1s;
+    text-decoration: 2s;
+    
+  
+
+}
+
+.Walter--White , .William-Anderson{
+
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+    display: inline-block;
+   
+}
+.contact{
+    margin-top: 150px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.contect-text , .big-child{
+    display: inline-block;
+    width: fit-content;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 20%);
+
+}
+
+.big-child{
+    width: 60%;
+}
+
+.contect-text{
+    width: 40%;
+    background-color: #fff;
+/* background-color: rgb(24, 28, 214); */
+box-shadow: 0px 2px 15px rgb(255 255 2555 / 10%);
+}
+.contect-text-header , .contect-text-paragraph{
+    padding-left: 35px;
+}
+/*  عشان اعمل الخط تحت الكلمه */
+
+.contect-text-header{
+    font-size: 40px;
+    position: relative;
+}
+
+.contect-text-header::after{
+
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 10%;
+    /* bottom: 30px;  */
+    top: 50px;
+    left: 50px; 
+    /* right: -3px;  */
+    background-color: #009970;   
+}
+
+.contect-text-paragraph{
+    font-size: 18px;
+}
+
+
+.iframe-width{
+    width: 95%;
+    height: 250px;
+}
+
+svg{
+
+ height:4em;
+ width: 3em;;
+
+  -ms-transform: rotate(360deg);
+   -webkit-transform: rotate(360deg); 
+   transform: rotate(360deg);
+   fill:green
+}
+.location{
+    /* border: 5px solid red; */
+    padding: 10px;
+    padding-right: 10px;
+    width: 95%;
+    margin-top: 20px;
+    
+    background: #fff;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    display: flex;
+    
+}
+
+.svg ,.location-text{
+    display: inline-block;
+    
+}
+
+.big-child2{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    height: 95px;
+
+}
+.Email{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.svg-email , .email-txt{
+    display: inline-block
+}
+.email-txt{margin-left: 50px;
+}
+
+.Call ,.Email{
+
+    display: inline-block;
+    width: 49%;   
+    background: #fff;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+}
+.svg-email{
+  -ms-transform: rotate(360deg);
+   -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    width: 1em;
+    height: 2em;
+}
+.Call{
+
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.svg-calll{
+    width:1em;
+    height:2em;
+     -ms-transform: rotate(360deg); 
+     -webkit-transform: rotate(360deg); 
+     transform: rotate(360deg);
+
+}
+
+.big-child3{
+    display: flex;
+    flex-direction: row;  
+    margin-top: 20px;
+}
+
+.your-Name ,.Your-Email{    
+    display: inline-block;
+    width: 50%;
+    
+}
+
+.input-email , .input-name{
+  width: 90%;
+  height: 40px;
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+
+.subj-ect{
+    margin-top: 20px;;
+    width: 95%;
+     height: 40px;  
+     padding-left: 20px;
+     font-size: 18px;
+  
+}
+.text-area{
+    margin-top: 20px;;
+    max-width: fit-content;
+    width: 50%;
+}
+.message{
+    padding: 20px;
+    font-size: 18px;
+    height: 40px;
+
+    /* display: block;
+    width: 100%;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; */
+}
+
+.send{
+
+    text-decoration: non;
+    background: #009970;
+    border: 0;
+    padding: 20px 30px ;
+    font-size: 18px;
+    color: #fff;
+    transition: 1s;
+    border-radius: 50px;
+    margin-left: 300px;
+    margin-top: 20px;
+    
+}
+
+
+.end{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 130px;
+    padding: 60px 0px 30px;
+    background: rgb(249, 248, 249);
+    
+}
+
+.Beth-any ,.UsefulLinks ,.Our-Services ,.Subscribe{
+
+    display: inline-block;
+    
+    
+}
+
+.Beth-any {
+    width: 30%;
+}
+
+.UsefulLinks ,.Our-Services , .Subscribe{
+    width: 20%;
+}
+
+/* form part*/
+.Subscribe{
+    margin-left: 80px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #444444;
+    position: relative;
+    padding-bottom: 12px;
+    
+}
+
+.parent-form{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.but-om{
+   
+    top: 0px;
+    right: -2px;
+    margin-bottom: 10px;
+    margin-right: 80px;
+    border: 0px;
+    font-size: 16px;
+    padding: 10px;
+    background: rgb(0, 153, 112);
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease 0s;
+    border-radius: 50px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 2px 15px;
+}
+
+
+.email-space{
+    border: 1px solid black;
+    padding:  10px ;
+    width: 250px;
+    height: 15px;
+    border-radius: 15px;
+ 
+    
+}
+
+/*  to test and learn befor*/
+/* .list-of-link{
+    padding-bottom: 14px;
+} */
+
+
+/* .parent-hago{ 
+    margin-bottom: 20px;
+    
+} */
+ 
+/* .hago-lol{
+   
+    
+    background-color: rgb(145, 142, 142);;
+    width: 600px;
+    position: relative;
+
+} */
+/* 
+.hago-lol::after{
+
+    content: " ";
+    position: absolute;
+    width: 150px;
+    height: 20%;
+    bottom: 4px;
+    left: 10px;
+    right: -.5px;
+    background-color: red;
+} */
